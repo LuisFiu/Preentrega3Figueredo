@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("../assets/fonts/Roboto-Regular.ttf");
+  }
+  
+  @font-face {
+    font-family: "Typo";
+    src: url("../assets/fonts/typo.otf");
+  }
+
+
+  
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+  }
+
+  .navbar-brand{
+    font-family: "Typo";
+    font-weight: bold;
+    color: rgb(29, 79, 145);
+  }
+
+
+
