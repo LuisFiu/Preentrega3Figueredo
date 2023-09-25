@@ -68,3 +68,10 @@
   color:rgb(108, 0, 144)
 }
 
+.card{
+  border-radius: 15px !important;
+}
+
+.card-img-marca{
+  border-radius: 15px 15px 0px 0px;
+}
