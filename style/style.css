@@ -2,12 +2,10 @@
   font-family: "Roboto";
   src: url("../assets/fonts/Roboto-Regular.ttf");
 }
-
 @font-face {
   font-family: "Typo";
   src: url("../assets/fonts/typo.otf");
 }
-
 * {
   margin: 0;
   padding: 0;
@@ -73,13 +71,11 @@
   border-radius: 15px !important;
   transition: 800ms;
 }
-
 @media (max-width: 600px) {
   .card:hover {
     transform: scale(0.95);
   }
 }
-
 @media (min-width: 601px) {
   .card:hover {
     transform: scale(1.08);
@@ -93,7 +89,6 @@
 .cliente {
   transition: 800ms;
 }
-
 .cliente:hover {
   transform: scale(1.1);
 }
