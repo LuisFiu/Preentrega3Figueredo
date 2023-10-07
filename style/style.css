@@ -67,8 +67,15 @@
   border-radius: 15px !important;
   transition: 800ms;
 }
-.card:hover {
-  transform: scale(1.07);
+@media (max-width: 600px) {
+  .card:hover {
+    transform: scale(0.95);
+  }
+}
+@media (min-width: 601px) {
+  .card:hover {
+    transform: scale(1.08);
+  }
 }
 
 .card-img-marca {
