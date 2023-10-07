@@ -1,3 +1,9 @@
+$color-primario:rgb(29, 79, 145);
+$color-primario-osc:rgb(22, 53, 94);
+$color-primario-claro:rgb(38, 100, 181);
+$color-secundario:rgb(108, 0, 144);
+$color-secundario-claro:rgb(146, 0, 195);
+
 @font-face {
     font-family: "Roboto";
     src: url("../assets/fonts/Roboto-Regular.ttf");
@@ -18,17 +24,17 @@
   .navbar-brand{
     font-family: "Typo";
     font-weight: bold;
-    color: rgb(29, 79, 145);
+    color: $color-primario;
   }
 
   .navbar-brand:hover{
     font-family: "Typo";
     font-weight: bold;
-    color: rgb(22, 53, 94);
+    color: $color-primario-osc;
   }
 
   .nav-link:hover{
-    color: rgb(29, 79, 145);
+    color: $color-primario;
   }
 
  .active{
@@ -36,33 +42,33 @@
   }
 
 .boton-marca{
-  background-color: rgb(29, 79, 145) !important;
-  border-color: rgb(29, 79, 145);
+  background-color: $color-primario !important;
+  border-color: $color-primario;
   border-radius: 15px !important;
 }
 
 .boton-marca:hover{
-  background-color: rgb(38, 100, 181) !important;
-  border-color: rgb(38, 100, 181);
+  background-color: $color-primario-claro !important;
+  border-color: $color-primario-claro;
 }
 
 .boton-marca-secondary{
-  background-color: rgb(108, 0, 144) !important;
-  border-color: rgb(108, 0, 144);
+  background-color: $color-secundario !important;
+  border-color: $color-secundario;
   border-radius: 15px !important;
 }
 
 .boton-marca-secondary:hover{
-  background-color: rgb(146, 0, 195) !important;
-  border-color: rgb(146, 0, 195);
+  background-color: $color-secundario-claro !important;
+  border-color: $color-secundario-claro;
 }
 
 .text-marca-primary{
-  color:rgb(29, 79, 145)
+  color: $color-primario;
 }
 
 .text-marca-secondary{
-  color:rgb(108, 0, 144)
+  color: $color-secundario
 }
 
 .card{
