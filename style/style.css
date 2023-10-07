@@ -37,22 +37,26 @@
   background-color: rgb(29, 79, 145) !important;
   border-color: rgb(29, 79, 145);
   border-radius: 15px !important;
+  transition: 400ms;
 }
 
 .boton-marca:hover {
   background-color: rgb(38, 100, 181) !important;
   border-color: rgb(38, 100, 181);
+  transform: scale(1.06);
 }
 
 .boton-marca-secondary {
   background-color: rgb(108, 0, 144) !important;
   border-color: rgb(108, 0, 144);
   border-radius: 15px !important;
+  transition: 400ms;
 }
 
 .boton-marca-secondary:hover {
   background-color: rgb(146, 0, 195) !important;
   border-color: rgb(146, 0, 195);
+  transform: scale(1.06);
 }
 
 .text-marca-primary {

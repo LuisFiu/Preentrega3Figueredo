@@ -31,22 +31,26 @@
   background-color: $color-primario !important;
   border-color: $color-primario;
   border-radius: 15px !important;
+  transition: 400ms;
 }
 
 .boton-marca:hover{
   background-color: $color-primario-claro !important;
   border-color: $color-primario-claro;
+  transform: scale(1.06);
 }
 
 .boton-marca-secondary{
   background-color: $color-secundario !important;
   border-color: $color-secundario;
   border-radius: 15px !important;
+  transition: 400ms;
 }
 
 .boton-marca-secondary:hover{
   background-color: $color-secundario-claro !important;
   border-color: $color-secundario-claro;
+  transform: scale(1.06);
 }
 
 .text-marca-primary{
