@@ -1,19 +1,5 @@
-$color-primario:rgb(29, 79, 145);
-$color-primario-osc:rgb(22, 53, 94);
-$color-primario-claro:rgb(38, 100, 181);
-$color-secundario:rgb(108, 0, 144);
-$color-secundario-claro:rgb(146, 0, 195);
+@import "./variables";
 
-@font-face {
-    font-family: "Roboto";
-    src: url("../assets/fonts/Roboto-Regular.ttf");
-  }
-  
-  @font-face {
-    font-family: "Typo";
-    src: url("../assets/fonts/typo.otf");
-  }
-  
   * {
     margin: 0;
     padding: 0;
