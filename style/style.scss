@@ -1,81 +1,81 @@
 @import "./variables";
 
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Roboto";
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
 
-  .navbar-brand{
-    font-family: "Typo";
-    font-weight: bold;
-    color: $color-primario;
-  }
+.navbar-brand {
+  font-family: "Typo";
+  font-weight: bold;
+  color: $color-primario;
+}
 
-  .navbar-brand:hover{
-    font-family: "Typo";
-    font-weight: bold;
-    color: $color-primario-osc;
-  }
+.navbar-brand:hover {
+  font-family: "Typo";
+  font-weight: bold;
+  color: $color-primario-osc;
+}
 
-  .nav-link:hover{
-    color: $color-primario;
-  }
+.nav-link:hover {
+  color: $color-primario;
+}
 
- .active{
-    color: rgb(30, 84, 155) !important;
-  }
+.active {
+  color: rgb(30, 84, 155) !important;
+}
 
-.boton-marca{
+.boton-marca {
   background-color: $color-primario !important;
   border-color: $color-primario;
   border-radius: 15px !important;
   transition: 400ms;
 }
 
-.boton-marca:hover{
+.boton-marca:hover {
   background-color: $color-primario-claro !important;
   border-color: $color-primario-claro;
   transform: scale(1.06);
 }
 
-.boton-marca-secondary{
+.boton-marca-secondary {
   background-color: $color-secundario !important;
   border-color: $color-secundario;
   border-radius: 15px !important;
   transition: 400ms;
 }
 
-.boton-marca-secondary:hover{
+.boton-marca-secondary:hover {
   background-color: $color-secundario-claro !important;
   border-color: $color-secundario-claro;
   transform: scale(1.06);
 }
 
-.text-marca-primary{
+.text-marca-primary {
   color: $color-primario;
 }
 
-.text-marca-secondary{
+.text-marca-secondary {
   color: $color-secundario
 }
 
-.card{
+.card {
   border-radius: 15px !important;
   transition: 800ms;
-  
-  @media (max-width: 600px){
 
-    &:hover{
+  @media (max-width: 600px) {
+
+    &:hover {
       transform: scale(0.95);
     }
 
   }
 
-  @media (min-width: 601px){
+  @media (min-width: 601px) {
 
-    &:hover{
+    &:hover {
       transform: scale(1.08);
     }
 
@@ -84,15 +84,15 @@
 
 }
 
-.card-img-marca{
+.card-img-marca {
   border-radius: 15px 15px 0px 0px;
 
 }
 
-.cliente{
+.cliente {
   transition: 800ms;
-  
-  &:hover{
+
+  &:hover {
     transform: scale(1.10);
   }
 }
