@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("../assets/fonts/Roboto-Regular.ttf");
+  }
+  
+  @font-face {
+    font-family: "Typo";
+    src: url("../assets/fonts/typo.otf");
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+  }
+
+  .navbar-brand{
+    font-family: "Typo";
+    font-weight: bold;
+    color: rgb(29, 79, 145);
+  }
+
+  .navbar-brand:hover{
+    font-family: "Typo";
+    font-weight: bold;
+    color: rgb(22, 53, 94);
+  }
+
+  .nav-link:hover{
+    color: rgb(29, 79, 145);
+  }
+
+ .active{
+    color: rgb(30, 84, 155) !important;
+  }
+
+.boton-marca{
+  background-color: rgb(29, 79, 145) !important;
+  border-color: rgb(29, 79, 145);
+  border-radius: 15px !important;
+}
+
+.boton-marca:hover{
+  background-color: rgb(38, 100, 181) !important;
+  border-color: rgb(38, 100, 181);
+}
+
+.boton-marca-secondary{
+  background-color: rgb(108, 0, 144) !important;
+  border-color: rgb(108, 0, 144);
+  border-radius: 15px !important;
+}
+
+.boton-marca-secondary:hover{
+  background-color: rgb(146, 0, 195) !important;
+  border-color: rgb(146, 0, 195);
+}
+
+.text-marca-primary{
+  color:rgb(29, 79, 145)
+}
+
+.text-marca-secondary{
+  color:rgb(108, 0, 144)
+}
+
+.card{
+  border-radius: 15px !important;
+}
+
+.card-img-marca{
+  border-radius: 15px 15px 0px 0px;
+}
