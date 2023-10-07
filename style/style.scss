@@ -59,8 +59,23 @@
 
 .card{
   border-radius: 15px !important;
+  transition: 800ms;
+  
+  &:hover{
+    transform: scale(1.07);
+  }
+
 }
 
 .card-img-marca{
   border-radius: 15px 15px 0px 0px;
+
+}
+
+.cliente{
+  transition: 800ms;
+
+  &:hover{
+    transform: scale(1.10);
+  }
 }
